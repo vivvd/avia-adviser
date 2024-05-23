@@ -1,0 +1,71 @@
+.inputs {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.flightData h2{
+  margin-top: 0;
+}
+
+.flightData p{
+  margin-bottom: 0;
+}
+.App{
+  background-color: black;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  gap: 36px;
+  
+
+}
+
+.iataInput{
+  height: 3rem;
+  width: 5rem;
+}
+.codeInput{
+  height: 3rem;
+}
+.dateInput{
+  height: 3.1rem;
+}
+.submitButton{
+  height: 3.4rem;
+  border-radius: 0;
+  border: 0;
+  background-color: white;
+}
+
+.submitButton:active {
+  background-color: black;
+  box-shadow: 2px 2px white;
+  color: white;
+  transform: translateY(1px);
+}
+
+.iataInput, .codeInput, .dateInput{
+  background-color: black;
+  color: white;
+  border-radius: 0;
+  border: 0;
+  margin: 4px;
+  width: 10rem;
+}
+
+.codeInput::placeholder{
+  color: white;
+}
+
+.iataInput::placeholder{
+  color: white;
+}
+
+::-webkit-calendar-picker-indicator {
+  filter: invert(1)
+}
+
