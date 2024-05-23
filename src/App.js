@@ -86,7 +86,7 @@ const App = () => {
 
   const getWeather = async (airportCode) => {
     try {
-      const weatherResponse = await fetch(`http://api.weatherapi.com/v1/current.json?key=${weatherApiKey}&q=${airportCode}`);
+      const weatherResponse = await fetch(`https://api.weatherapi.com/v1/current.json?key=${weatherApiKey}&q=${airportCode}`);
       if (weatherResponse.ok) {
         const weatherJsonData = await weatherResponse.json();
         setWeatherData(weatherJsonData);
