@@ -1,6 +1,6 @@
 # AviaAdviser
 The Flight Tracker App is a web application that allows users to retrieve flight details and weather information for a given flight.
-avia-adviser.vercel.app
+[avia-adviser.vercel.app](https://avia-adviser.vercel.app/)
 ## Features
 
 - Retrieve flight details including departure airport, departure time, arrival airport, and arrival time.
